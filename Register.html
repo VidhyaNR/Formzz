@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register Page
+        </title>
+    </head>
+    <body style="background-image:linear-gradient(#D16BA5,#86A8E7,#5FFBF1)">
+        <center>
+        <link rel="stylesheet" href="log in.css">
+            <h1>Register</h1>
+        <form>
+            <tr>
+                <td>
+                    <label for="fname">First name:</label>
+                </td>    
+                <td>
+                    <input type="text" id="fname" name="fname" placeholder="Enter first name" size="15" required>
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="lname:">Last name:</label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" placeholder="Enter last name" size="15" required>
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="gender">Gender :</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">Male
+                    <input type="radio" id="female" name="gender" value="female">Female
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="dob"> &nbsp &nbsp DOB :</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="dob"> 
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="Country">&nbsp Country :</label>
+                </td>
+                <td>
+                    <input type="text" id="txt" name="txt" placeholder="Enter country" size="15">
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="email">&nbsp&nbsp Email :</label> 
+                </td>
+                <td>
+                    <input type="email" id="mail" name="mail" placeholder="Enter email" size="15">
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="phone no">&nbsp Phone &nbsp:</label>
+                </td>
+            <td>
+                <select id="codes" name="codes">
+                    <option value="91">91</option>
+                    <option value="81">81</option>
+                    <option value="92">92</option>
+                </select>
+                <input type="phone" name="dialing_codes" placeholder="90********" maxlength="10" size="10">
+            </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="username"> Username:</label>
+                </td>
+                <td>
+                    <input type="text" id="username" name="username" placeholder="Enter name" size="15" minlength="7" required>
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td>
+                    <label for="pwd">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="pwd" name="pwd" placeholder="Enter password" size="15" minlength="7" required>
+                </td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <th>
+                    <button type="button" onclick="alert('Account successfully created')">Submit</button>
+                </th>
+                <br>
+                <br>
+                <td>
+                    Have already an account <a href="Index.html">Login here</a>
+                </td>
+            </tr>
+        </center>    
+        </form>
+    </body>
+</html>
